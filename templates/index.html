@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Texto para Áudio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Texto para Áudio 🎧</h1>
+    <p>Transforme seu texto em áudio de forma rápida e divertida!</p>
+  </header>
+
+  <main>
+    <textarea id="textInput" placeholder="Digite ou cole seu texto aqui..."></textarea>
+    <div class="buttons">
+      <button onclick="playAudio()">Ouvir 🔊</button>
+      <button onclick="downloadAudio()">Download ⬇️</button>
+    </div>
+    <audio id="audioPlayer" controls hidden></audio>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ para a Geração Z</p>
+  </footer>
+</body>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</html>
