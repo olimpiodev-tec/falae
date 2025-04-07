@@ -41,5 +41,5 @@ A organização do projeto seguirá a estrutura abaixo:
 ├── 📄 req.txt
 ```
 
-## 4. 🛠 Publicação
+## 5. 🛠 Publicação
 O projeto foi publicado na plataforma [Render](https://render.com/) usando o plano gratuito, então seu carregamento pode demorar um pouco, segue o [link](https://falae-yao3.onrender.com/)
